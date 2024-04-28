@@ -1,9 +1,6 @@
 #install it first
 sudo apt install python3-pip -y 
 
-#and then run the requirements.txt using 
-pip3 install -r requirements.txt
-
-
-sudo pip install django -y 
+sudo apt install python3-django
+sudo apt install python3-django-allauth
 sudo python3 -m pip install django-allauth -y
